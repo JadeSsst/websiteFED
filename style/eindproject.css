@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 1vw;
+    color: white;
+}
+
+a:hover {
+    background-color: indianred;
+}
+
+header img {
+    width: 100vw;
+    margin-top: -1em;
+}
+
+nav {
+    width: 100%;
+    background-color: black;
+    margin-top: -1em;
+    /*position: fixed;*/
+}
+
+header h1 {
+    font-family: "Raleway", sans-serif;
+    color: black;
+    font-size: 3.5vw;
+    position: relative;
+    top: -39vw;
+    text-align: center;
+}
+
+/* veranderen dat eerste weggaat als je klikt dus dan kan id weg en gewoon button*/
+header button.eerste {
+    position: relative;
+    top: -38vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+header div {
+    display: none;
+}
+
+header div.verschijn {
+    position: relative;
+    top: -38vw;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: cadetblue;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 2vw 3vw;
+    font-size: 16px;
+    margin: 0vw 2vw;
+    box-shadow: 5px 5px 5px black;
+}
+
+button:hover {
+    background-color: indianred;
+}
+
+section img {
+    width: 300px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -10vw;
+}
+section div {
+    margin: 0vw 2vw 0vw 2vw;
+}
+
+section:nth-child(2) {
+    margin: 4vw 20vw 3vw 20vw;
+}
+
+section:nth-child(3) {
+    margin: 18vw 20vw 3vw 20vw;
+}
+
+section p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em;
+    text-align: justify;
+    font-family: "Batang", sans-serif;
+}
+
+h1  {
+    font-family: "Raleway", sans-serif;
+    color: cadetblue; 
+    font-weight: 1000;
+}
+
+h2 {
+   font-family: "Raleway", sans-serif;
+    color: cadetblue; 
+}
+
+section div:nth-child(2) {
+    padding-top: 4em;
+}
+
+form {
+    width: 25em;
+}
+
+#mijnwerk div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+

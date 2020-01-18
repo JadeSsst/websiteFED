@@ -1,2 +1,2 @@
 # websiteFED
-Mijn website voor frontend development
+Hierbij mijn eindproject voor het vak frontend development.
